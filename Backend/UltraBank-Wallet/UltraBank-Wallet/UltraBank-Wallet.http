@@ -1,0 +1,6 @@
+@UltraBank_Wallet_HostAddress = http://localhost:5280
+
+GET {{UltraBank_Wallet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
