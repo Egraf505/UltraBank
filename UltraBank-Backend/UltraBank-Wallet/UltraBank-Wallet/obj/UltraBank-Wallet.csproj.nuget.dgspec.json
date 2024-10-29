@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\IDE\\Project\\UltraBank\\Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj": {}
+    "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj": {}
   },
   "projects": {
-    "E:\\IDE\\Project\\UltraBank\\Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj": {
+    "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IDE\\Project\\UltraBank\\Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj",
+        "projectUniqueName": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj",
         "projectName": "UltraBank-Wallet",
-        "projectPath": "E:\\IDE\\Project\\UltraBank\\Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj",
+        "projectPath": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\UltraBank-Wallet\\UltraBank-Wallet.csproj",
         "packagesPath": "C:\\Users\\Anonim\\.nuget\\packages\\",
-        "outputPath": "E:\\IDE\\Project\\UltraBank\\Backend\\UltraBank-Wallet\\UltraBank-Wallet\\obj\\",
+        "outputPath": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\UltraBank-Wallet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anonim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\UltraBank-Wallet.props" />
-</Project>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ultrabank-wallet:
+    image: ${DOCKER_REGISTRY-}ultrabankwallet
+    build:
+      context: .
+      dockerfile: UltraBank-Wallet/Dockerfile

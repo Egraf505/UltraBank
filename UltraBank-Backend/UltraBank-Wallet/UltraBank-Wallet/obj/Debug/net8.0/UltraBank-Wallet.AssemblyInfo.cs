@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UltraBank-Wallet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a4fbd4759ae92527b11d0614176d64cea80c63a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22b98db579608e910e4c7769c362fd01fab7f2a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("UltraBank-Wallet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UltraBank-Wallet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
