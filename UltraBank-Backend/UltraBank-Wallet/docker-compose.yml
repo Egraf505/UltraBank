@@ -6,3 +6,9 @@ services:
     build:
       context: .
       dockerfile: UltraBank-Wallet/Dockerfile
+
+  ultra-bank-frontend:
+    image: ultra-bank-frontend
+    build:
+      context: ../../UltraBank-Frontend
+      dockerfile: ./Dockerfile
