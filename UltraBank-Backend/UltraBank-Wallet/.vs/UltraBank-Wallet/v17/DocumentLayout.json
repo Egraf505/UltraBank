@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|e:\\ide\\project\\ultrabank\\ultrabank-backend\\ultrabank-wallet\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|e:\\ide\\project\\ultrabank\\ultrabank-backend\\ultrabank-wallet\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|e:\\ide\\project\\ultrabank\\ultrabank-backend\\ultrabank-wallet\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{134FB223-A2B2-4F03-80B1-858A3C4227C1}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IDE\\VisualStudio\\VS\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,12 +41,12 @@
               "RelativeToolTip": "..\\..\\..\\..\\VisualStudio\\VS\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "ViewState": "AQIAAJMBAAAAAAAAAAD4v6gBAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-29T14:16:28.987Z",
+              "WhenOpened": "2024-11-05T21:09:47.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "E:\\IDE\\Project\\UltraBank\\UltraBank-Backend\\UltraBank-Wallet\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",

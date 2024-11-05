@@ -2,14 +2,14 @@ name: dockercompose5871843448404625716
 services:
   ultra-bank-frontend:
     build:
-      context: E:\IDE\Project\UltraBank\UltraBank-Backend\UltraBank-Wallet\UltraBank\UltraBank-Frontend
-      dockerfile: Dockerfile
+      context: E:\IDE\Project\UltraBank\UltraBank-Frontend
+      dockerfile: ./Dockerfile
     image: ultra-bank-frontend
     networks:
       default: null
     ports:
       - mode: ingress
-        target: 90
+        target: 80
         published: "4999"
         protocol: tcp
   ultrabank-wallet:
@@ -18,19 +18,14 @@ services:
       dockerfile: UltraBank-Wallet/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_HTTP_PORTS: "8080"
-      ASPNETCORE_HTTPS_PORTS: "8081"
+      ASPNETCORE_HTTP_PORTS: "80"
     image: ultrabankwallet
     networks:
       default: null
     ports:
       - mode: ingress
-        target: 8080
+        target: 80
         published: "5000"
-        protocol: tcp
-      - mode: ingress
-        target: 8081
-        published: "5001"
         protocol: tcp
     volumes:
       - type: bind
