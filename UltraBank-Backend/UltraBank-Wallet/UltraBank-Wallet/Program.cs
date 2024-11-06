@@ -10,7 +10,12 @@ namespace UltraBank_Wallet
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            builder.Services.AddCors(options => options.AddPolicy("ClearPolyci", builder =>
+            {
+                builder.WithOrigins("http://localhost:3000");
+            }));
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -27,6 +32,7 @@ namespace UltraBank_Wallet
 
             app.UseAuthorization();
 
+            app.UseCors("ClearPolyci");
 
             app.MapControllers();
 

@@ -1,14 +1,25 @@
 version: '3.4'
+networks:
+  dev:
 
 services:
+  nginx:
+    image: nginx:stable-alpine
+    networks:
+      - dev
+
   ultrabank-wallet:
     image: ${DOCKER_REGISTRY-}ultrabankwallet
     build:
       context: .
       dockerfile: UltraBank-Wallet/Dockerfile
+    networks:
+      - dev
 
   ultra-bank-frontend:
     image: ultra-bank-frontend
     build:
       context: ../../UltraBank-Frontend
       dockerfile: ./Dockerfile
+    networks:
+      - dev

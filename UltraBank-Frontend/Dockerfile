@@ -24,7 +24,7 @@ COPY --from=build /app/dist/ultra-bank-frontend/browser /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Expose порта, на котором работает Nginx
-EXPOSE 80
+EXPOSE 3000
 
 # Запускаем Nginx
 CMD ["nginx", "-g", "daemon off;"]
